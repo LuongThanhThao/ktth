@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tieude p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family:  Arial, sans-serif;
+    color: gray;
+    margin: 10px; /*tăng khoan cach theo chieu doc*/
+}
+.tieude h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-family:  Arial, sans-serif;
+    color: blueviolet;
+}
+
+.nutgui button{
+    width: 200PX;
+    height: 70PX;
+    font-size: 20PX;
+    color: white;
+    background-color:#27aae7;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+.form{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows:50px ;
+    grid-gap: 30px;
+    border: 10px ;
+    padding: 30px;
+    border-radius: 1px;
+    justify-content: center;
+}
+.box1 input{
+    width: 635px;
+    height: 50px;
+    border: none;
+}
+    form {
+        background-color: rgb(220, 216, 216);
+    }
+    textarea{
+        width: 635px;
+        height: 150px;
+        border: none;
+        margin-left: 30px;
+    }
